@@ -1,0 +1,42 @@
+
+{%extends 'base.html'%}
+{% load static %}
+
+{%block title%}
+Projects
+{%endblock title %}
+{%block body_block%}
+<link rel="stylesheet" href="{%static 'assets/css/custom.css'%}">
+<section class="work" id="work" >
+
+  <h2 class="heading"><i class="fas fa-laptop-code"></i> Projects <span>Made</span></h2>
+
+    <div class="box-container">
+
+{% for project in projects %}
+
+<div class="box tilt " >
+
+      <img draggable="false"   src="{{project.image.url}}" alt="project" />
+      <div class="content">
+        <div class="tag">
+        <h3>{{ project.title }}</h3>
+        </div>
+        <div class="desc">
+          <p> {{project.description}}</p>
+          <div class="btns">
+            <a href="{% url 'port-projectdetails' project.pk %}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    {%endfor%}
+    </div>
+</section>
+
+{% endblock %}
+
+

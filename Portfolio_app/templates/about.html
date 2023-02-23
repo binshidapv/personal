@@ -1,0 +1,48 @@
+{% extends 'base.html'%}
+{%load static%}
+{%block title%}
+About
+{%endblock title %}
+{%block body_block%}
+<link rel="stylesheet" href="{%static 'assets/css/custom.css'%}">
+<div class ="container p-3">
+
+<section class="about" id="about">
+    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+<link rel="stylesheet" href="{%static 'assets/css/custom.css'%}">
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="{% static 'assets/images/got.png' %}" alt="">
+
+    </div>
+    <div class="content">
+        <h3>I'm Binshida</h3>
+        <span class="tag">Full Stack Developer</span>
+
+        <p>I am a Full-Stack developer based in Dubai, UAE.
+          I am an Bachelor of Computer Application graduate from University of Madras.
+          I am very passionate about improving my coding skills & developing applications & websites.
+          I build WebApps and Websites using MERN Stack.
+          Working for myself to improve my skills.
+          Love to build Full-Stack clones. </p>
+
+        <div class="box-container">
+
+            <div class="box">
+              <p><span> email : </span> binshida.pv@gmail.com</p>
+              <p><span> place : </span> Dubai,UAE</p>
+            </div>
+        </div>
+
+        <div class="resumebtn">
+            <a href="{%static 'assets/Binshida Resume (1).pdf' %} " class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+</div>
+{%endblock%}
