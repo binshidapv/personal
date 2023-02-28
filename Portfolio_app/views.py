@@ -14,6 +14,7 @@ def HomeView(request):
      context = {
          'projects': projects
           }
+
      return render(request, 'home.html', context)
 
     # define other views for other pages here...

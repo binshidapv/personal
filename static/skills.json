@@ -1,0 +1,77 @@
+[
+    {
+         "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+    },
+ {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
+    },
+     {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+    },
+     {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
+    },
+    {
+        "name": "jQuery",
+        "icon": "https://img.icons8.com/ios-filled/48/1169ae/jquery.png"
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+    },
+     {
+        "name": "Wordpress",
+        "icon": "https://img.icons8.com/color/48/000000/wordpress.png"
+    },
+    {
+        "name": "Angular"
+    ,
+        "icon": "https://img.icons8.com/color/48/000000/angularjs.png"
+    },
+    {
+        "name": "Django",
+        "icon": "https://img.icons8.com/color/48/000000/django.png"
+    },
+
+    {
+        "name": "TypeScript",
+        "icon": "https://img.icons8.com/color/48/000000/typescript.png"
+    },
+    {
+        "name": "PyCharm",
+        "icon": "https://img.icons8.com/color/48/000000/pycharm.png"
+    },
+    {
+        "name": "Visual Studio code",
+        "icon": "https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
+    },
+
+{
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/48/000000/nodejs.png"
+    }
+]

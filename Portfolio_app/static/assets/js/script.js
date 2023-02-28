@@ -56,17 +56,34 @@ $(document).ready(function () {
 
 });
 
+//document.addEventListener('visibilitychange',
+//    function () {
+//        if (document.visibilityState === "visible") {
+//            document.title = "Portfolio | Binshida";
+//            $("#favicon").attr("href", "{% static 'assets/images/favicon.png' %}");
+//        }
+//        else {
+//            document.title = "Come Back To Portfolio";
+//            $("#favicon").attr("href", "{% static 'assets/images/favhand.png' %}");
+////        }
+//    });
 document.addEventListener('visibilitychange',
     function () {
+        console.log('visibility state changed');
         if (document.visibilityState === "visible") {
+            console.log('document is visible');
             document.title = "Portfolio | Binshida";
-            $("#favicon").attr("href", "static/assets/images/got.png");
+            $("#favicon").attr("href", "http://localhost:8000/static/assets/images/favicon1.png");
         }
         else {
+            console.log('document is hidden');
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "static/assets/images/favhand.png");
+            $("#favicon").attr("href", "http://localhost:8000/static/assets/images/favicon2.png");
         }
     });
+
+
+
 
 
 // <!-- typed js effect starts -->
